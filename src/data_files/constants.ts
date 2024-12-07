@@ -1,12 +1,12 @@
 import ogImageSrc from "@images/social.png";
 
 export const SITE = {
-  title: "ScrewFast",
+  title: "Agroindustrias Equatorial",
   tagline: "Top-quality Hardware Tools",
-  description: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
-  url: "https://screwfast.uk",
-  author: "Emil Gulamov",
+  description: "Agroindustrias Equatorianas ofrece herramientas de hardware de alta calidad y servicios de construcción expertos para satisfacer todas tus necesidades de proyecto. Inicia tu exploración y contacta nuestro equipo de ventas para una calidad superior y confiabilidad.",
+  description_short: "Agroindustrias Equatorianas ofrece herramientas de hardware de alta calidad y servicios de construcción expertos para satisfacer todas tus necesidades de proyecto.",
+  url: "https://agroindustrias-equatorianas.com",
+  author: "IsnotCristhianr",
 };
 
 export const SEO = {
@@ -30,10 +30,10 @@ export const SEO = {
 };
 
 export const OG = {
-  locale: "en_US",
-  type: "website",
+  locale: "es_EC",
+  type: "website", 
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
-  description: "Equip your projects with ScrewFast's top-quality hardware tools and expert construction services. Trusted by industry leaders, ScrewFast offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
+  title: `${SITE.title}: Vinos y Licores Artesanales`,
+  description: "Descubre nuestra exquisita selección de vinos y licores artesanales elaborados con frutas tropicales de Ibarra. Productos de alta calidad que fusionan tradición e innovación. ¡Explora nuestro catálogo y encuentra el sabor perfecto para cada ocasión!",
   image: ogImageSrc,
 };

@@ -1,38 +1,42 @@
 // An array of links for navigation bar
 const navBarLinks = [
-  { name: "Home", url: "/" },
-  { name: "Products", url: "/products" },
-  { name: "Services", url: "/services" },
+ /*  { name: "Inicio", url: "/" },
+  { name: "Productos", url: "/products" },
+  { name: "Servicios", url: "/services" },
   { name: "Blog", url: "/blog" },
-  { name: "Contact", url: "/contact" },
+  { name: "Contacto", url: "/contact" }, */
+  { name: "Inicio", url: "/" },
+  { name: "Productos", url: "#" },
+  { name: "Servicios", url: "#" },
+  { name: "Blog", url: "#" },
+  { name: "Contacto", url: "/contact" },
 ];
 // An array of links for footer
 const footerLinks = [
   {
-    section: "Ecosystem",
+    section: "Ecosistema",
     links: [
-      { name: "Documentation", url: "/welcome-to-docs/" },
-      { name: "Tools & Equipment", url: "/products" },
-      { name: "Construction Services", url: "/services" },
+      /* { name: "Documentación", url: "/welcome-to-docs/" },
+      { name: "Herramientas & Equipo", url: "/products" },
+      { name: "Servicios", url: "/services" }, */
+      { name: "Documentación", url: "#" },
+      { name: "Herramientas & Equipo", url: "#" },
+      { name: "Servicios", url: "#" },
     ],
   },
   {
-    section: "Company",
+    section: "Empresa",
     links: [
-      { name: "About us", url: "#" },
-      { name: "Blog", url: "/blog" },
-      { name: "Careers", url: "#" },
-      { name: "Customers", url: "#" },
+      { name: "Acerca de nosotros", url: "#" },
+      { name: "Blog", url: "#" },
     ],
   },
 ];
 // An object of links for social icons
 const socialLinks = {
   facebook: "https://www.facebook.com/",
-  x: "https://twitter.com/",
-  github: "https://github.com/mearashadowfax/ScrewFast",
-  google: "https://www.google.com/",
-  slack: "https://slack.com/",
+  instagram: 'https://www.instagram.com/vinosequatorial/', 
+  tiktok: 'https://www.tiktok.com/@vinosequatorial'
 };
 
 export default {

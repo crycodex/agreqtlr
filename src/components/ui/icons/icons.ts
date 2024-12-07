@@ -5,7 +5,7 @@ export const Icons = {
         d: "m150-400 82-80-82-82-80 82 80 80Zm573-10 87-140 88 140H723Zm-243-70q-50 0-85-35t-35-85q0-51 35-85.5t85-34.5q51 0 85.5 34.5T600-600q0 50-34.5 85T480-480Zm.351-180Q455-660 437.5-642.851t-17.5 42.5Q420-575 437.351-557.5t43 17.5Q506-540 523-557.351t17-43Q540-626 522.851-643t-42.5-17ZM480-600ZM0-240v-53q0-39.464 42-63.232T150.398-380q12.158 0 23.38.5T196-377.273q-8 17.273-12 34.842-4 17.57-4 37.431v65H0Zm240 0v-65q0-65 66.5-105T480-450q108 0 174 40t66 105v65H240Zm570-140q67.5 0 108.75 23.768T960-293v53H780v-65q0-19.861-3.5-37.431Q773-360 765-377.273q11-1.727 22.171-2.227 11.172-.5 22.829-.5Zm-330.2-10Q400-390 350-366q-50 24-50 61v5h360v-6q0-36-49.5-60t-130.7-24Zm.2 90Z",
       },
     ],
-    class: "mt-1 h-8 w-8 flex-shrink-0 fill-orange-400 dark:fill-orange-300",
+    class: "mt-1 h-8 w-8 flex-shrink-0 fill-green-400 dark:fill-green-300",
     width: 48,
     height: 48,
     viewBox: "0 -960 960 960",
@@ -16,7 +16,7 @@ export const Icons = {
         d: "M343-420h225v-60H343v60Zm0-90h395v-60H343v60Zm0-90h395v-60H343v60Zm-83 400q-24 0-42-18t-18-42v-560q0-24 18-42t42-18h560q24 0 42 18t18 42v560q0 24-18 42t-42 18H260Zm0-60h560v-560H260v560ZM140-80q-24 0-42-18t-18-42v-620h60v620h620v60H140Zm120-740v560-560Z",
       },
     ],
-    class: "mt-1 h-8 w-8 flex-shrink-0 fill-orange-400 dark:fill-orange-300",
+    class: "mt-1 h-8 w-8 flex-shrink-0 fill-green-400 dark:fill-green-300",
     width: 48,
     height: 48,
     viewBox: "0 -960 960 960",
@@ -27,7 +27,7 @@ export const Icons = {
         d: "m346-60-76-130-151-31 17-147-96-112 96-111-17-147 151-31 76-131 134 62 134-62 77 131 150 31-17 147 96 111-96 112 17 147-150 31-77 130-134-62-134 62Zm27-79 107-45 110 45 67-100 117-30-12-119 81-92-81-94 12-119-117-28-69-100-108 45-110-45-67 100-117 28 12 119-81 94 81 92-12 121 117 28 70 100Zm107-341Zm-43 133 227-225-45-41-182 180-95-99-46 45 141 140Z",
       },
     ],
-    class: "mt-1 h-8 w-8 flex-shrink-0 fill-orange-400 dark:fill-orange-300",
+    class: "mt-1 h-8 w-8 flex-shrink-0 fill-green-400 dark:fill-green-300",
     width: 48,
     height: 48,
     viewBox: "0 -960 960 960",
@@ -38,7 +38,7 @@ export const Icons = {
         d: "M480-480q-51 0-85.5-34.5T360-600q0-50 34.5-85t85.5-35q50 0 85 35t35 85q0 51-35 85.5T480-480Zm-.351-60Q505-540 522.5-557.149t17.5-42.5Q540-625 522.649-642.5t-43-17.5Q454-660 437-642.649t-17 43Q420-574 437.149-557t42.5 17ZM240-240v-76q0-27 17.5-47.5T300-397q42-22 86.943-32.5 44.942-10.5 93-10.5Q528-440 573-429.5t87 32.5q25 13 42.5 33.5T720-316v76H240Zm240-140q-47.546 0-92.773 13T300-328v28h360v-28q-42-26-87.227-39-45.227-13-92.773-13Zm0-220Zm0 300h180-360 180ZM140-80q-24 0-42-18t-18-42v-172h60v172h172v60H140ZM80-648v-172q0-24 18-42t42-18h172v60H140v172H80ZM648-80v-60h172v-172h60v172q0 24-18 42t-42 18H648Zm172-568v-172H648v-60h172q24 0 42 18t18 42v172h-60Z",
       },
     ],
-    class: "mt-1 h-8 w-8 flex-shrink-0 fill-orange-400 dark:fill-orange-300",
+    class: "mt-1 h-8 w-8 flex-shrink-0 fill-green-400 dark:fill-green-300",
     width: 48,
     height: 48,
     viewBox: "0 -960 960 960",
@@ -50,7 +50,7 @@ export const Icons = {
       },
     ],
     class:
-      "mt-2 h-6 w-6 flex-shrink-0 fill-neutral-700 hs-tab-active:fill-orange-400 dark:fill-neutral-300 dark:hs-tab-active:fill-orange-300 md:h-7 md:w-7",
+      "mt-2 h-6 w-6 flex-shrink-0 fill-neutral-700 hs-tab-active:fill-green-400 dark:fill-neutral-300 dark:hs-tab-active:fill-green-300 md:h-7 md:w-7",
     width: 48,
     height: 48,
     viewBox: "0 -960 960 960",
@@ -62,7 +62,7 @@ export const Icons = {
       },
     ],
     class:
-      "mt-2 h-6 w-6 flex-shrink-0 fill-neutral-700 hs-tab-active:fill-orange-400 dark:fill-neutral-300 dark:hs-tab-active:fill-orange-300 md:h-7 md:w-7",
+      "mt-2 h-6 w-6 flex-shrink-0 fill-neutral-700 hs-tab-active:fill-green-400 dark:fill-neutral-300 dark:hs-tab-active:fill-green-300 md:h-7 md:w-7",
     width: 48,
     height: 48,
     viewBox: "0 -960 960 960",
@@ -74,7 +74,7 @@ export const Icons = {
       },
     ],
     class:
-      "h-6 w-6 flex-shrink-0 text-neutral-700 hs-tab-active:text-orange-400 dark:text-neutral-300 dark:hs-tab-active:text-orange-300 md:h-7 md:w-7",
+      "h-6 w-6 flex-shrink-0 text-neutral-700 hs-tab-active:text-green-400 dark:text-neutral-300 dark:hs-tab-active:text-green-300 md:h-7 md:w-7",
     width: 24,
     height: 24,
     viewBox: "0 0 24 24",
@@ -93,7 +93,7 @@ export const Icons = {
         d: "M12 19V5",
       },
     ],
-    class: "h-5 w-5 flex-shrink-0 text-orange-400 dark:text-orange-300",
+    class: "h-5 w-5 flex-shrink-0 text-green-400 dark:text-green-300",
     width: 24,
     height: 24,
     viewBox: "0 0 24 24",
@@ -522,5 +522,30 @@ export const Icons = {
     strokeLinecap: "round",
     strokeLinejoin: "round",
     stroke: "currentColor",
+  },
+  /* Footer Icons */
+  instagramFooter: {
+    paths: [
+      {
+        d: "M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z",
+      },
+    ],
+    class:
+      "h-4 w-4 flex-shrink-0 fill-current text-neutral-700 dark:text-neutral-400",
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    title: "Instagram",
+  },
+  tiktokFooter: {
+    paths: [
+      {
+        d: "M12 0h2.64c.192.953.72 2.156 1.647 3.349C17.193 4.519 18.396 5.333 20 5.333v2.667c-2.337 0-4.093-1.085-5.333-2.439V14.667a6.667 6.667 0 1 1-6.667-6.667v2.667a4 4 0 1 0 4 4V0Z",
+      },
+    ],
+    class:
+      "h-4 w-4 flex-shrink-0 fill-current text-neutral-700 dark:text-neutral-400",
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    title: "Tiktok",
   },
 };
