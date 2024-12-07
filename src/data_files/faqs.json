@@ -1,29 +1,29 @@
 {
-  "subTitle": "Ask us anything about our brand and products, and get factual responses.",
+  "subTitle": "Pregúntanos lo que quieras sobre nuestra marca y productos, y obtén respuestas detalladas.",
   "faqs": [
     {
-      "question": "What types of tools are included in the Starter Kit?",
-      "answer": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks."
+      "question": "¿Qué tipos de vinos y licores ofrecen?",
+      "answer": "Ofrecemos una variedad de vinos y licores artesanales elaborados con frutas tropicales de la región de Ibarra. Nuestra colección incluye vinos de frutas como mora, frutilla y naranjilla, así como licores tradicionales ecuatorianos, todos elaborados con ingredientes naturales de alta calidad."
     },
     {
-      "question": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
-      "answer": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support, and receive exclusive content. Contact our support team for a seamless transition."
+      "question": "¿Cómo garantizan la calidad de sus productos?",
+      "answer": "Seguimos estrictos procesos de control de calidad en cada etapa de producción. Nuestros maestros artesanos seleccionan cuidadosamente las frutas y utilizan técnicas tradicionales combinadas con métodos modernos para garantizar la excelencia en cada botella."
     },
     {
-      "question": "What discounts are available for bulk orders through the Professional Toolbox plan?",
-      "answer": "Professional Toolbox members are entitled to exclusive discounts on bulk orders, the percentage of which may vary depending on the order volume. Get in touch with us to discuss your needs, and we'll provide a tailored discount structure."
+      "question": "¿Realizan envíos a nivel nacional?",
+      "answer": "Sí, realizamos envíos a todas las provincias del Ecuador. Los tiempos de entrega y costos varían según la ubicación. Contáctanos para obtener información detallada sobre envíos a tu localidad."
     },
     {
-      "question": "What kind of customer support can I expect?",
-      "answer": "All our customers receive dedicated email support. With the Starter Kit, you'll receive our standard support, while the Professional Toolbox plan upgrades you to priority support, meaning faster response times and specialized assistance."
+      "question": "¿Ofrecen descuentos para pedidos al por mayor?",
+      "answer": "Efectivamente, contamos con descuentos especiales para pedidos al por mayor, ideales para eventos, restaurantes y distribuidores. El porcentaje de descuento varía según el volumen del pedido. Contáctanos para discutir tus necesidades y obtener una cotización personalizada."
     },
     {
-      "question": "How current are the online resources and tutorials?",
-      "answer": "We regularly update our online resources and tutorials to reflect the latest trends in DIY and construction, as well as introductions to new tools and techniques. Our material aims to be comprehensive and user-friendly for all skill levels."
+      "question": "¿Qué tipo de atención al cliente ofrecen?",
+      "answer": "Brindamos atención personalizada a través de correo electrónico, WhatsApp y llamadas telefónicas. Nuestro equipo está disponible para resolver tus dudas sobre productos, realizar pedidos y proporcionar información sobre distribución y ventas al por mayor."
     },
     {
-      "question": "Does ScrewFast offer services for large-scale construction projects?",
-      "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive services. We provide consultation, planning, and supply of high-grade tools and materials, as well as staffing solutions for substantial construction needs. Contact us for a customized quote."
+      "question": "¿Sus productos son aptos para eventos y celebraciones especiales?",
+      "answer": "¡Por supuesto! Nuestros vinos y licores son perfectos para todo tipo de celebraciones. Ofrecemos opciones de empaque especial para eventos y podemos personalizar pedidos según tus necesidades. Además, brindamos asesoramiento para la selección de productos según el tipo de evento."
     }
   ]
 }
