@@ -6,6 +6,8 @@ import enStrings from "@utils/navigation.ts";
 import frStrings from "@utils/fr/navigation.ts";
 import Icon from "@components/ui/icons/Icon.astro";
 import { SITE } from "@data/constants";
+import Logo from "@/images/logos/eqtlr_completo.webp";
+import { Image } from "astro:assets";
 
 // Select the correct translation based on the page's lang prop:
 const strings = Astro.currentLocale === "fr" ? frStrings : enStrings;
@@ -24,6 +26,9 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Desarr
     <div class="grid grid-cols-2 gap-6 md:grid-cols-4 lg:grid-cols-5">
       <div class="col-span-full lg:col-span-1">
         <!-- Brand Logo -->
+        <a href="/" class="flex-none text-xl font-semibold dark:text-white" aria-label="Brand">
+          <Image src={Logo} alt="Logo Equatorial" class="w-28 dark:invert" />
+        </a>
       </div>
       <!-- An array of links for Product and Company sections -->
       {

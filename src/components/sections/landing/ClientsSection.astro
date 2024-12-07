@@ -1,14 +1,18 @@
 ---
 // Define props from Astro
 const { title, subTitle } = Astro.props;
+//imgs
+import eqLogo from "@/images/logos/eqtlr_completo.webp";
+import kosLogo from "@/images/logos/kos_letter .png";
+import { Image } from "astro:assets";
 
 const brands = [
   {
-    src: "src/images/logos/eqtlr_completo.webp",
+    src: eqLogo,
     alt: "Equatorial",
   },
   {
-    src: "src/images/logos/kos_letter .png",
+    src: kosLogo,
     alt: "Kaos Lettera",
   },
 ];
@@ -44,10 +48,10 @@ interface Props {
     <!-- Logos marcas -->
     {
       brands.map((brand) => (
-        <img 
-          src={brand.src} 
-          alt={brand.alt} 
-          class="h-[75px] w-auto grayscale brightness-0 transition duration-300 dark:invert-0 dark:brightness-0" 
+        <Image
+          src={brand.src}
+          alt={brand.alt}
+          class="h-[75px] w-auto grayscale brightness-0 transition duration-300 dark:invert-0 dark:brightness-0"
         />
       ))
     }
