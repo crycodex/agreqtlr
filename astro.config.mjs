@@ -6,48 +6,37 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  // https://docs.astro.build/en/guides/images/#authorizing-remote-images
-  site: "https://screwfast.uk",
+  site: "https://agroindustriasequatorial.com/",
   image: {
     domains: ["images.unsplash.com"],
   },
-  // i18n: {
-  //   defaultLocale: "en",
-  //   locales: ["en", "fr"],
-  //   fallback: {
-  //     fr: "en",
-  //   },
-  //   routing: {
-  //     prefixDefaultLocale: false,
-  //   },
-  // },
   prefetch: true,
   integrations: [
     tailwind(),
     sitemap({
       i18n: {
-        defaultLocale: "en", // All urls that don't contain `fr` after `https://screwfast.uk/` will be treated as default locale, i.e. `en`
+        defaultLocale: "es", // Todas las URLs que no contengan `fr` después de `https://agroindustriasequatorial.com/` serán tratadas como idioma predeterminado, es decir, `es`
         locales: {
-          en: "en", // The `defaultLocale` value must present in `locales` keys
-          fr: "fr",
+          es: "es", // El valor `defaultLocale` debe estar presente en las claves `locales`
+          en: "en",
         },
       },
     }),
     starlight({
-      title: "ScrewFast Docs",
-      defaultLocale: "root",
+      title: "Agroindustrias Equatorial",
+      defaultLocale: "es",
       // https://github.com/withastro/starlight/blob/main/packages/starlight/CHANGELOG.md
-      // If no Astro and Starlight i18n configurations are provided, the built-in default locale is used in Starlight and a matching Astro i18n configuration is generated/used.
-      // If only a Starlight i18n configuration is provided, an equivalent Astro i18n configuration is generated/used.
-      // If only an Astro i18n configuration is provided, the Starlight i18n configuration is updated to match it.
-      // If both an Astro and Starlight i18n configurations are provided, an error is thrown.
+      // Si no se proporcionan configuraciones i18n de Astro y Starlight, se utiliza el idioma predeterminado incorporado en Starlight y se genera/utiliza una configuración i18n de Astro coincidente.
+      // Si solo se proporciona una configuración i18n de Starlight, se genera/utiliza una configuración i18n de Astro equivalente.
+      // Si solo se proporciona una configuración i18n de Astro, la configuración i18n de Starlight se actualiza para que coincida.
+      // Si se proporcionan configuraciones i18n tanto de Astro como de Starlight, se genera un error.
       locales: {
-        root: {
-          label: "English",
-          lang: "en",
+        es: {
+          label: "Español",
+          lang: "es",
         },
+        en: { label: "English", lang: "en" },
         de: { label: "Deutsch", lang: "de" },
-        es: { label: "Español", lang: "es" },
         fa: { label: "Persian", lang: "fa", dir: "rtl" },
         fr: { label: "Français", lang: "fr" },
         ja: { label: "日本語", lang: "ja" },
@@ -56,10 +45,10 @@ export default defineConfig({
       // https://starlight.astro.build/guides/sidebar/
       sidebar: [
         {
-          label: "Quick Start Guides",
+          label: "Guías de Inicio Rápido",
           translations: {
+            en: "Quick Start Guides",
             de: "Schnellstartanleitungen",
-            es: "Guías de Inicio Rápido",
             fa: "راهنمای شروع سریع",
             fr: "Guides de Démarrage Rapide",
             ja: "クイックスタートガイド",
@@ -68,18 +57,18 @@ export default defineConfig({
           autogenerate: { directory: "guides" },
         },
         {
-          label: "Tools & Equipment",
+          label: "Herramientas y Equipos",
           items: [
-            { label: "Tool Guides", link: "tools/tool-guides/" },
-            { label: "Equipment Care", link: "tools/equipment-care/" },
+            { label: "Guías de Herramientas", link: "tools/tool-guides/" },
+            { label: "Cuidado del Equipo", link: "tools/equipment-care/" },
           ],
         },
         {
-          label: "Construction Services",
+          label: "Servicios de Construcción",
           autogenerate: { directory: "construction" },
         },
         {
-          label: "Advanced Topics",
+          label: "Temas Avanzados",
           autogenerate: { directory: "advanced" },
         },
       ],
@@ -100,14 +89,14 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             property: "og:image",
-            content: "https://screwfast.uk" + "/social.webp",
+            content: "https://agroindustriasequatorial.com" + "/social.webp",
           },
         },
         {
           tag: "meta",
           attrs: {
             property: "twitter:image",
-            content: "https://screwfast.uk" + "/social.webp",
+            content: "https://agroindustriasequatorial.com" + "/social.webp",
           },
         },
       ],
