@@ -5,12 +5,10 @@ import HeroSection from "@components/sections/landing/HeroSection.astro";
 import ClientsSection from "@components/sections/landing/ClientsSection.astro";
 import FeaturesGeneral from "@components/sections/features/FeaturesGeneral.astro";
 import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
-import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import heroImage from "@images/hero-img.webp";
 import faqs from "@data/faqs.json";
 import features from "@data/features.json";
-import pricing from "@data/pricing.json";
 import featureImage from "@images/feature-img.png";
 import construction from "@images/dash-orgullo.png";
 import tools from "@images/dash-calidad.png";
@@ -31,7 +29,7 @@ const avatarSrcs: Array<string> = [
         class="text-yellow-500 dark:text-yellow-400"> Equatorial</span>`
     subTitle="Transformamos los aromas y sabores de las frutas tropicales en vinos y licores únicos, orgullosamente ecuatorianos."
     primaryBtn="Explorar Productos"
-    primaryBtnURL="/products"
+    primaryBtnURL="#"
     secondaryBtn="Contáctanos"
     secondaryBtnURL="/contact"
     withReview={true}
