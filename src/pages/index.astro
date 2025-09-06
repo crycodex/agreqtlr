@@ -6,10 +6,11 @@ import ClientsSection from "@components/sections/landing/ClientsSection.astro";
 import FeaturesGeneral from "@components/sections/features/FeaturesGeneral.astro";
 import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
-import heroImage from "@images/hero-img.webp";
+import heroImage from "@images/hero-img.png";
 import faqs from "@data/faqs.json";
 import features from "@data/features.json";
 import featureImage from "@images/feature-img.png";
+import featureImage2 from "@images/feature-img2.png";
 import construction from "@images/dash-orgullo.png";
 import tools from "@images/dash-calidad.png";
 import dashboard from "@images/dash-artesano.png";
@@ -49,7 +50,8 @@ const avatarSrcs: Array<string> = [
   <FeaturesGeneral
     title="Nuestros Productos"
     subTitle="Experimenta la confiabilidad elegida por grandes industrias."
-    src={featureImage}
+    img1={featureImage}
+    img2={featureImage2}
     alt="Botellas de vino y licores artesanales de Equatorial exhibidas elegantemente"
     features={features}
   />
